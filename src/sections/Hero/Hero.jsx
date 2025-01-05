@@ -53,7 +53,7 @@ function Hero() {
         <p className={styles.description}>
           Self-Driven Software Developer; Travel/Coffee Lover.
         </p>
-        <a href={CV} download>
+        <a href={CV} download="Nien-Chen(Jane)Wu-Resume.pdf">
           <button className="hover">Resume</button>
         </a>
       </div>
