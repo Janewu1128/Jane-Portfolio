@@ -12,14 +12,14 @@ Currently, two official plugins are available:
 ## Build and Run
 1. Clone this repo `https://janewu1128.github.io/Jane-Portfolio/`
 2. Modify your changes
-3. See changes locally in real time without deploy\ 
+3. See changes locally in real time without deploy\
     Run `npm run dev`
 4. Update files to create a `dist` folder\
     Run `npm run build`
 5. Commit changes on Github\
     Run `git add .`\
     Run `git commit -m "Update portfolio content"`\
-    Run `git push origin main`\
+    Run `git push origin main`
 6. Deploy changes to website\
     Run `npm run deploy`
 * If you don't have gh-pages package, install gh-pages package as follow:\
