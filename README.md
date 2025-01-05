@@ -1,6 +1,6 @@
 ## My portfolio website
-### https://janewu1128.github.io/Jane-Portfolio/
-# React + Vite
+#### https://janewu1128.github.io/Jane-Portfolio/
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
