@@ -14,13 +14,13 @@ Currently, two official plugins are available:
 2. Modify your changes
 3. See changes locally in real time without deploy\
     Run `npm run dev`
-4. Update files to create a `dist` folder\
-    Run `npm run build`
-5. Commit changes on Github\
+4. Commit changes on Github\
     Run `git add .`\
     Run `git commit -m "Update portfolio content"`\
     Run `git push origin main`
-6. Deploy changes to website\
+5. Update files to the `dist` folder\
+    Run `npm run build`
+6. Deploy `dist` folder to `gh-pages` branch\
     Run `npm run deploy`
 * If you don't have gh-pages package, install gh-pages package as follow:\
 run `npm install gh-pages --save-dev`\
