@@ -34,24 +34,24 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Haowei(Alice)
+          Nien-Chen(Jane)
           <br />
-          Chen
+          Wu
         </h1>
-        <h2>Ph.D in Math</h2>
+        <h2>Master in Software Engineering</h2>
         <span>
-            <a href="https://scholar.google.com/citations?user=TLM2V2EAAAAJ&hl=en" target="_blank">
+            {/* <a href="https://scholar.google.com/citations?user=TLM2V2EAAAAJ&hl=en" target="_blank">
             <img src={scholarIcon} alt="Google Scholar icon" />
-          </a>
-          <a href="https://github.com/alicechen216" target="_blank" rel="noopener noreferrer">
+          </a> */}
+          <a href="https://github.com/Janewu1128" target="_blank" rel="noopener noreferrer">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://www.linkedin.com/in/chenhaowei/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/nienchenwu/" target="_blank" rel="noopener noreferrer">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
         <p className={styles.description}>
-          Self-Driven Mathematician; Single Mother; Travel Lover.
+          Self-Driven Software Developer; Travel/Coffee Lover.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>

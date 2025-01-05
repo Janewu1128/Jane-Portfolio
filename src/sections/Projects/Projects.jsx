@@ -11,29 +11,29 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
+          src={system}
+          link="https://github.com/Janewu1128/mlc"
+          h3="My Learning Coach Web"
+          p="React, Next.js, PostgreSQL, Docker"
+        />
+        <ProjectCard
           src={multiagent}
-          link="https://github.com/alicechen216/EML6930"
-          h3="Multi-Agnet"
-          p="Robust Adaptive Control"
+          link="https://github.com/Janewu1128/microservices"
+          h3="Microservice Application"
+          p="Spring Boot, Spring Cloud"
         />
         <ProjectCard
           src={siam}
-          link="https://www.youtube.com/watch?v=akEbDMUDqUs&t=4s"
-          h3="SIAM Testimonials Invitation "
-          p="Youtube Link"
+          link="https://github.com/Janewu1128/serverless_blog"
+          h3="Serverless Web Blog"
+          p="Typescript, React, AWS"
         />
-        <ProjectCard
-          src={system}
-          link="https://github.com/alicechen216/Fractional-Order-System-Identification-With-Occupation-Kernel-Regression"
-          h3="System Identification"
-          p="Fracational RKHS"
-        />
-        <ProjectCard
+        {/* <ProjectCard
           src={scatter}
           link="https://github.com/alicechen216/MAT6932"
           h3="Scattered Data Approximation"
           p="Franke Function"
-        />
+        /> */}
       </div>
     </section>
   );
