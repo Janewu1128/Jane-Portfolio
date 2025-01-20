@@ -14,7 +14,7 @@ function Projects() {
           src={system}
           link="https://github.com/Janewu1128/mlc"
           h3="My Learning Coach Web"
-          p="React, Next.js, PostgreSQL, Docker"
+          p="Typescript, Next.js, PostgreSQL, Docker"
         />
         <ProjectCard
           src={multiagent}
