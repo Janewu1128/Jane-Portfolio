@@ -27,6 +27,7 @@ function Skills() {
       <h2 className={styles.categoryTitle}>Frameworks and Databases</h2>
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Spring Boot" />
+        <SkillList src={checkMarkIcon} skill="Microservices" />
         <SkillList src={checkMarkIcon} skill="Django" />
         <SkillList src={checkMarkIcon} skill="React" />
         <SkillList src={checkMarkIcon} skill="Next.js" />

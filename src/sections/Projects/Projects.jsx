@@ -20,7 +20,7 @@ function Projects() {
           src={multiagent}
           link="https://github.com/Janewu1128/microservices"
           h3="Microservice Application"
-          p="Spring Boot, Spring Cloud"
+          p="Java, Spring Boot, Spring Cloud"
         />
         <ProjectCard
           src={siam}
